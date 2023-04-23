@@ -16,9 +16,7 @@ We expect that all users of the software, if they are interested in taking advan
 
 AzuraCast utilises code scanning via GitHub Actions and various checks from our development team to keep our software as secure as possible for our users, however, no software is perfect.
 
-The AzuraCast team welcomes any security researchers to submit vulnerability reports to our team directly at security@azuracast.com and we will aim to resolve these issues as soon as possible. 
-
-When sending in the email we ask for a detailed explaination of the vulnerability, a proof of concept and any logs that may be helpful to our investigation, without this information it may slow our team down in investigating the root cause.
+We recommend using [huntr.dev](https://huntr.dev/repos/azuracast/azuracast) to disclose any security vulnerabilities you discover in AzuraCast. Huntr offers us the opportunity to resolve the issue prior to it being made public, and also assists us in issuing CVE notifications for particularly critical issues.
 
 ## In Scope
 

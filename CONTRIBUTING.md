@@ -13,20 +13,15 @@ indentation, punctuation and other style items for you automatically. You may ne
 your IDE of choice.
 
 If your IDE does not support EditorConfig, the most important standard to remember that we follow is the PHP Framework
-Interoperability Group's [PSR-12 Extended Coding Style](https://www.php-fig.org/psr/psr-12/) standard.
+Interoperability Group's [PER Coding Style](https://www.php-fig.org/per/coding-style/) recommendations.
 
 Accessibility, security, and modern best practices are very important in AzuraCast's development. Any newly contributed
-code can, and should, take advantage of the full suite of new features made available in PHP 7.4 and newer.
+code can, and should, take advantage of the full suite of new features made available in PHP 8 and newer.
 
 Instructions for developing with AzuraCast locally
-are [available here](https://docs.azuracast.com/en/developers/getting-started). If you have questions about the
+are [available here](https://azuracast.com/docs/developers/getting-started/). If you have questions about the
 guidelines above or about how to contribute to AzuraCast, please create a Github issue, join
 our [Discord server.](https://www.azuracast.com/discord) Please note that support is offered on an 'as available' basis.
-
-Contributions are also welcome in the supporting technologies used to make AzuraCast possible, such as:
-
-- Dockerfiles (see [our separate repositories](https://github.com/AzuraCast) for Docker containers)
-- [Ansible configuration](https://github.com/AzuraCast/AzuraCast/tree/main/util/ansible) for Ansible installs
 
 ## Translating AzuraCast
 
@@ -63,10 +58,17 @@ you to advise us by creating a Github issue, especially if there is a known solu
 While we appreciate everyone who is eager to contribute to this project and help it succeed, we must ask that some forms
 of interaction be avoided:
 
+- **No AI**: AzuraCast and its related projects are intended to be built and maintained by humans. We do not accept pull
+  requests from AI assistants, nor do we accept code that has clearly been "vibe-coded"; that is, written exclusively by
+  an AI with no human review or intervention. We use and encourage the use of a number of tools that help improve the
+  developer experience, including code inspectors and static analysis tools, but we do not ever intend to remove the human
+  from the development process.
+
 - Please **do not e-mail the project developer directly** with questions or issues specific to AzuraCast, unless you
   were specifically requested to do so as part of an ongoing issue. Contacting me directly prevents me from tracking all
-  outstanding issues in one place, and harms the transparency that is essential to FOSS development. If, however, you
-  are e-mailing me to offer me a paying job...go nuts.
+  outstanding issues in one place, and harms the transparency that is essential to FOSS development.
+
+  I do, however, accept e-mails in regards to paid contract work. 😀
 
 - Please **do not create "this doesn't work" issues** that are just one sentence long and don't provide any insight into
   the scope of the issue, what changes might have triggered it, or what platform you're running on. At the very minimum,
